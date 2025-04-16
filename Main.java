@@ -43,7 +43,6 @@ public class Main {
     //pressing enter to continue
     public static void pressEnter(){
         Scanner enter = new Scanner(System.in);
-
         String contuing = enter.nextLine();
     }
 
