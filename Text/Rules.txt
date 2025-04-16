@@ -1,0 +1,42 @@
+Basic Structure of the Game
+    Players: You typically play against one or more opponents. Each player starts with 20 life points.
+    Deck: Each player has a deck of at least 60 cards (mostly made up of creatures, spells, and lands).
+Game Setup
+    Starting Hand: Each player shuffles their deck and draws 7 cards.
+    Starting: Players flip a coin or roll a die to determine who goes first.
+Game Phases
+    Untap Phase: You untap all your tapped cards.
+    Upkeep Phase: You resolve any effects that happen during your upkeep (if applicable).
+    Draw Phase: You draw one card from your deck.
+    Main Phase 1: You can play a land and cast spells (creatures, enchantments, instants, sorceries).
+    Combat Phase:
+        Declare Attackers: Choose which creatures will attack.
+        Each creature has an attack power, which determines how much damage it deals to an opponent or a blocking creature.
+        Declare Blockers: Your opponent decides which of their creatures will block your attacking creatures.
+        Each blocking creature has a health value, which indicates how much damage it can take before being destroyed.
+        Combat Damage: Damage is assigned and dealt; if a creature's damage dealt equals or exceeds its health, it’s destroyed.
+    Main Phase 2: You can play another land and cast more spells, similar to Main Phase 1.
+    End Phase: Resolve any "end of turn" effects and discard down to your hand limit of 7 cards if necessary.
+Types of Cards
+    Lands: Produce mana, the resource used to cast spells.
+    Creatures: Attack opponents and block their creatures. Each creature has:
+        Attack Power: The amount of damage it deals.
+    Health (Toughness): The amount of damage it can take before being destroyed.
+    Instants: Can be played at almost any time (even during your opponent's turn).
+    Sorceries: Can only be played during your own main phase.
+    Enchantments: Provide ongoing effects.
+    Artifacts: Similar to enchantments but can have different effects, often representing magical items.
+Winning the Game
+    You win by reducing your opponent's life total to 0, making them draw from an empty deck, or fulfilling specific win conditions from cards.
+Key Concepts
+    Mana: The currency used to cast spells, generated primarily from lands.
+    Tapped vs. Untapped: Tapped cards cannot be used until they are untapped in the next untap phase.
+    Summoning Sickness: Creatures cannot attack or use abilities the turn they come into play unless they have haste.
+    Important Tips
+        Card Abilities: Pay attention to special abilities on cards; they can greatly influence gameplay.
+        Deck Building: A good mix of creature, spell, and land cards is crucial for a balanced deck.
+        Adapt Strategy: Gameplay changes based on your draw and opponent’s actions, so be flexible.
+Summary
+    Magic: The Gathering is a strategic card game where players utilize decks to reduce opponents' life points while managing resources (mana) to cast spells.
+    Each creature has an attack power and health, influencing its ability to deal damage and survive.
+     The game involves various phases every turn, allowing different actions, and victory can be achieved through multiple routes, including combat and specific card effects.
