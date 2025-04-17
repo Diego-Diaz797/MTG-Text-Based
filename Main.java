@@ -24,7 +24,7 @@ public class Main {
                         System.out.println("Playing the game");
                         break;
                     case 2:
-                        fileReader();
+                        fileReader("Text/Rules.txt");
                         pressEnter();
                         break;
                     case 3:
@@ -47,10 +47,10 @@ public class Main {
     }
 
     //file reader
-    public static void fileReader(){
+    public static void fileReader(String files){
         //trying, which will tell us if the file is there
         try{
-            File file = new File("Text/Rules.txt");
+            File file = new File(files);
             Scanner fileScanner = new Scanner(file);
 
             //reading the file line by line
