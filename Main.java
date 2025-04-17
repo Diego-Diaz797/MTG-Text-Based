@@ -7,6 +7,8 @@ public class Main {
         //Scanner
         Scanner scan = new Scanner(System.in);
 
+        //importing the game
+
         //main code
         while(true){
             try{
