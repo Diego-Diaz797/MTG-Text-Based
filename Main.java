@@ -1,17 +1,25 @@
 import java.util.Scanner;
-import java.io.File;
-import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import Helpful_Compontes.File;
+import Helpful_Compontes.Enter;
+import Helpful_Compontes.PrintingFiles;
 
 public class Main {
     public static void main(String[] args) {
         //Scanner
         Scanner scan = new Scanner(System.in);
 
-        //importing the game
+        //importing classes
+        File file = new File();
+        Enter enter = new Enter();
+        PrintingFiles print = new PrintingFiles();
+
+        //vars
+        ArrayList<String> howToPlay = file.fileReader("Text/Rules.txt");
 
         //main code
-        while(true){
-            try{
+        while (true) {
+            try {
                 System.out.println("Magic the Gathering\n Text Based Game");
 
                 //match case that will to see what the player wants to choose
@@ -21,13 +29,13 @@ public class Main {
                         "3. Exit");
                 int choice = scan.nextInt();
 
-                switch (choice){
+                switch (choice) {
                     case 1:
                         System.out.println("Playing the game");
                         break;
                     case 2:
-                        fileReader("Text/Rules.txt");
-                        pressEnter();
+                        print.printFile(howToPlay);
+                        enter.pressEnter();
                         break;
                     case 3:
                         System.exit(0);
@@ -39,34 +47,6 @@ public class Main {
                 System.out.println("Please enter a number");
                 String a = scan.next();
             }
-        }
-    }
-
-    //pressing enter to continue
-    public static void pressEnter(){
-        Scanner enter = new Scanner(System.in);
-        String contuing = enter.nextLine();
-    }
-
-    //file reader
-    public static void fileReader(String files){
-        //trying, which will tell us if the file is there
-        try{
-            File file = new File(files);
-            Scanner fileScanner = new Scanner(file);
-
-            //reading the file line by line
-            while(fileScanner.hasNext()){
-                String line = fileScanner.nextLine();
-                System.out.println(line);
-            }
-
-            //closing the scanner
-            fileScanner.close();
-        }
-        catch (FileNotFoundException e){ //the file was not scanned
-            System.err.println("Error: File not found!");
-            e.printStackTrace();
         }
     }
 }
